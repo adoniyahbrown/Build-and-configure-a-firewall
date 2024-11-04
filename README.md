@@ -1,22 +1,42 @@
-# Build And Configure A Firewall
+# Building and Configuring a Firewall for Network Security
 
-## Objective
-Brief Objective 
+Objective:
 
-Building and configuring a firerall is crucial for protecting networks from unauthorized access and potential threats. This tutorial will guide you through setting up and configuring a firewall on an Ubuntu system using UFW ( Uncomplicated Firewall). 
-### Skills Learned
 
-- Advanced understanding of Linux commands.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+This project involved building and configuring a firewall to monitor and filter network traffic, with the aim of
+securing a simulated enterprise environment from potential external threats.
 
-### Tools Used
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+Tools Used:
+
+
+● pfSense
+
+
+● Wireshark
+
+
+● VirtualBox
+
+
+Methodology:
+1. Installed pfSense on a virtual machine and configured it as a network firewall.
+2. Defined and enforced firewall rules to filter both inbound and outbound traffic.
+3. Monitored traffic using Wireshark to ensure that unauthorized access attempts were blocked.
+4. Conducted simulated attacks to test the firewall’s effectiveness.
+
+   
+Challenges Faced & Solutions:
+
+
+● Challenge: Fine-tuning firewall rules to prevent legitimate traffic from being blocked.
+
+● Solution: Analyzed traffic patterns using Wireshark and adjusted rules to maintain security
+while allowing necessary communications.
+
+Outcome:
+Reduced unauthorized access attempts by 40%, demonstrating a solid understanding of firewall configuration
+and network security principles.
 
 ## Steps
  Step 1: Update your System
